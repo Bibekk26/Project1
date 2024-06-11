@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Frontend Developer",
+        "company": "Tech Solutions",
+        "location": "New York, NY",
+        "description": "We are looking for a skilled frontend developer..."
+    },
+    {
+        "title": "Backend Developer",
+        "company": "Innovate Inc.",
+        "location": "San Francisco, CA",
+        "description": "Join our team as a backend developer and work on cutting-edge projects..."
+    },
+    {
+        "title": "Full Stack Developer",
+        "company": "WebWorks",
+        "location": "Remote",
+        "description": "We need a full stack developer to help us build scalable web applications..."
+    }
+]

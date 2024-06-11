@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/008/688/110/original/job-search-logo-free-vector.jpg" alt="Job Board Logo" class="logo">
+            <h1>Bibek Job Solutions</h1>
+        </div>
+        <div class="header-actions">
+            <input type="text" id="search" placeholder="Search for jobs...">
+            <button id="post-job-btn">Post a Job</button>
+        </div>
+    </header>
+    <main>
+        <section id="job-listings">
+            <!-- Job listings will be dynamically inserted here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Board. All rights reserved.</p>
+    </footer>
+
+    <!-- Job Posting Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Post a Job</h2>
+            <form id="job-form">
+                <label for="title">Job Title</label>
+                <input type="text" id="title" name="title" required>
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" required>
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" required>
+                <label for="description">Job Description</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Post Job</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
